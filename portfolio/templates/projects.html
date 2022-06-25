@@ -1,0 +1,30 @@
+{% extends 'partials/_base.html' %} {% block content %}
+
+<div class="heading row introText">
+    <h1>Rosanne Anderson:</h1>
+    <h2>Software Engineer - Web Developer - Problem Solver</h2>
+  </div>
+</div>
+{% include 'partials/_nav.html' %}
+
+<div class = 'inline'>
+    <div class="projects baseCSS">
+        <h2><a href = 'https://pour-choices-app.herokuapp.com/drinks/'>Pour Choices</a></h2>
+        <p>
+            Pour Choices is a website designed to help people find out what drinks they can make with their at home bar setup.  
+            <br><br>
+            Pour Choices is designed with Django (both front and backend).  It uses PostgreSQL as a database, and Python, HTML, and CSS programing languages. It has been deployed using Heroku.  
+        </p>
+    </div>
+    <br><br>
+    <div class="projects baseCSS">
+        <h2><a href = 'https://subtle-profiterole-48ae37.netlify.app/'>Hues Your Own Adventure</a></h2>
+        <p>
+            This website is designed to help people find and select colors to use in web design, art projects, and any other computer color needs.  
+            <br><br>
+            Hues Your Own Adventure was created using React, MongoDB, Javascript, HTML, and CSS.
+        </p>
+    </div>
+</div>
+
+{% endblock %}

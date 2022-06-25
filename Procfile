@@ -1,0 +1,1 @@
+web: gunicorn rosanne-portfolio.wsgi
